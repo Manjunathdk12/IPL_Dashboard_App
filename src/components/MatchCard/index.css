@@ -1,0 +1,45 @@
+.match-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #0f172a;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  color: white;
+  font-family: Bree Serif;
+}
+
+.match-card:hover {
+  transform: scale(1.05);
+}
+
+.match-logo {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.match-team {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.match-result {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.won {
+  border: 0 px;
+  color: greenyellow;
+}
+
+.lost {
+  border: 0px;
+  color: red;
+}
