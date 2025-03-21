@@ -10,30 +10,39 @@ In this project, let's build an **IPL Dashboard App** by applying the concepts w
 
 ### Design Files
 
-<details>
-<summary>Click to view</summary>
+
 
 - [Extra Small (Size < 576px) and Small (Size >= 576px) - Home](https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-home-sm-output.png)
 - [Extra Small (Size < 576px) and Small (Size >= 576px) - Team Matches](https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-team-matches-sm-output-v2.png)
 - [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-home-lg-output.png)
 - [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Team Matches](https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-team-matches-lg-output-v2.png)
 
-</details>
+
 
 ### Set Up Instructions
+Setup Instructions
 
-<details>
-<summary>Click to view</summary>
+Clone the repository:
+
+git clone <repository-url>
+
+Navigate to the project directory:
+
+cd IPL-Dashboard
+
+Install dependencies:
+
+npm install
+
+Start the application:
 
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
-</details>
+
 
 ### Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+
 
 The app must have the following functionalities
 
@@ -50,9 +59,7 @@ The app must have the following functionalities
   - **_loader_** should be displayed while fetching the data
   - After fetching the data, the team banner, latest match, and list of recent matches should be displayed
 
-</details>
 
-<details>
 
 <summary>API Requests & Responses</summary>
 <br/>
@@ -154,7 +161,7 @@ Returns a response containing details of all recent matches of a team
 
 <details>
 <summary>Implementation Files</summary>
-<br/>
+<br/
 
 Use these files to complete the implementation:
 
