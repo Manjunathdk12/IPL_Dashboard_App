@@ -27,6 +27,7 @@ An interactive IPL Dashboard built with **React.js** that displays IPL teams, th
 ## 📂 Project Structure
 
 ```
+```bash
 
 src/
 ├── App.js
